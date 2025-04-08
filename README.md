@@ -141,10 +141,10 @@ chmod +x install_docker.sh install_ovs.sh create_containers.sh ovs_config_vm1.sh
 
 ## Equipo de Trabajo
 
-- Caramantin Cruz Leandro Aarón (20222909)
-- Mendoza Galvez José Manuel (20213845)
-- Anchorena Campero Piero (20210113)
-- Ordoñez Flores Enzo Fabrizio (20221789)
+- Enzo Ordoñez Flores
+- Piero Anchorena Campero
+- José Mendoza Galvez
+- Leandro Caramantin Cruz
 
 ---
 
