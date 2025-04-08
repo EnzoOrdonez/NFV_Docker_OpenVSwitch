@@ -132,16 +132,10 @@ El repositorio incluye los siguientes scripts:
 - **run_iperf_server.sh** – Inicia iperf3 en modo servidor en VM_REDES_1.
 - **run_iperf_client.sh** – Ejecuta iperf3 en modo cliente en VM_REDES_2.
 
----
-
-## Documentación Adicional
-
-- **Informe Técnico:**  
-  Consulta el documento [RC_2024-2_Proyecto_Grupo_3.docx.pdf](link_al_informe) para obtener detalles completos sobre la metodología y análisis de resultados.
-- **Diagrama de Arquitectura:**  
-  Visualiza la topología del proyecto en el diagrama [Proyecto_NFV_DOCKER_OVS_REDES.drawio.png](https://iddbrwwjvdhv.objectstorage.us-ashburn-1.oci.customer-oci.com/n/iddbrwwjvdhv/b/Foto_Diagrama_Redes/o/Proyecto_NFV_DOCKER_OVS_REDES.drawio.png).
-- **Presentación del Proyecto:**  
-  Revisa la presentación en [Informe anual.pdf](link_a_la_presentacion) usada para exponer el trabajo.
+Ejecucion con script:
+```bash
+chmod +x install_docker.sh install_ovs.sh create_containers.sh ovs_config_vm1.sh ovs_config_vm2.sh test_connectivity.sh run_iperf_server.sh run_iperf_client.sh
+```
 
 ---
 
@@ -151,12 +145,6 @@ El repositorio incluye los siguientes scripts:
 - Mendoza Galvez José Manuel (20213845)
 - Anchorena Campero Piero (20210113)
 - Ordoñez Flores Enzo Fabrizio (20221789)
-
----
-
-## Licencia
-
-Este proyecto se publica bajo la licencia [MIT](LICENSE).
 
 ---
 
